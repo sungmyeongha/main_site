@@ -154,31 +154,33 @@
         }
         .mypoto_box {
             width: 100%;
-            height: 1000px;
-            border: 2px solid white;
-            margin-bottom:60px;
+            height: 1500px;
+            margin-bottom: 60px;
             position: relative;
+            background: white;
+            color: black;
+            border-radius: 20px;
         }
         
         .mypoto_img {
+            display: flex;
+            flex-wrap: wrap;
             width: 90%;
             position: absolute;
             left: 50%;
-            bottom: 20px;
+            bottom: 120px;
             transform: translateX(-50%);
-            background-color: white;}
+            background-color: white;
+            justify-content: center;}
         .mypoto_img_2{
             width: 100%;
             position: absolute;
-            left: 50%;
-            bottom: 170px;
-
+            bottom: 50px;
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-            transform: translateX(-50%);}
-            .mypoto_img_2 > img {width: 50%;}
-
-        .mypoto_img > img {width: 100%;}
         .mypoto_desc {
             position: absolute;
             top: 60px;
@@ -221,9 +223,9 @@
         .contact_box {
             width: 100%;
             height: 600px;
-
-            border: 2px solid snow;
             position: relative;
+            background: white;
+            border-radius: 20px;
         }
         .my_kakao {
             position: absolute;
@@ -286,17 +288,17 @@
 
 
         .pc_img {
+            width: 90%;
+            object-fit: contain;
+            padding-bottom: 30px;
+        }
+        .mo_img {
             width: 50%;
             height: 400px;
             object-fit: contain;
         }
-        .mo_img {
-            width: 35%;
-            height: 400px;
-            object-fit: contain;
-        }
         .ta_img{
-            width: 15%;
+            width: 35%;
             height: 400px;
             object-fit: contain;
         } 
@@ -386,7 +388,7 @@
                             <div class="bar">
                                 <div class="react_pacr parcent"></div>
                             </div>
-                            <div class="percent">80%</div>
+                            <div class="percent">70%</div>
                         </div>
                         <!-- <div class="skill">mySql</div> -->
                     </div>
@@ -400,7 +402,9 @@
                 </h4>
                 <div class="mypoto_box phto1">
                     <div class="mypoto_img">
-                        <img src="./스크린샷 2024-06-09 160523.png" alt="">
+                        <img src="./스크린샷 2024-06-09 160523.png" class="pc_img">
+                        <img src="./크림 테블릿 2024-06-19 103212.png" class="ta_img">
+                        <img src="./크림 모바일 2024-06-19 104858.png" class="mo_img">
                     </div>
                     <div class="mypoto_desc">
                         <h1>kream</h1>
@@ -418,7 +422,10 @@
                 </div>
                 <div class="mypoto_box phto2">
                     <div class="mypoto_img">
-                        <img src="./스크린샷 2024-06-09 160421.png">
+                        <img src="./스크린샷 2024-06-09 160421.png" class="pc_img">
+                        <img src="./파리 테블 2024-06-19 103419.png" class="ta_img">
+                        <img src="./파리 모바일 2024-06-19 103914.png" class="mo_img">
+                        
                     </div>
                     <div class="mypoto_desc">
                         <h1>파리바게트</h1>
@@ -431,12 +438,13 @@
                             <div class="circle paris1"></div>
                             <div class="circle paris2"></div>
                         </div>
-                        <a href="https://sungmyeongha.github.io/Paris/" class="link">웹사이트 접속하기</a>
+                        <a href="https://sungmyeongha.github.io/kreams/" class="link">웹사이트 접속하기</a>
                     </div>
                 </div>
                 <div class="mypoto_box phto3">
                     <div class="mypoto_img">
-                        <img src="./스크린샷 2024-06-09 160613.png" alt="">
+                        <img src="./스크린샷 2024-06-09 160613.png" class="pc_img">
+                        <img src="./spao_mobile 2024-06-19 102932.png" class="mo_img">
                     </div>
                     <div class="mypoto_desc">
                         <h1>SPAO</h1>
@@ -471,7 +479,7 @@
                 </div> -->
                 <div class="mypoto_box phto5">
                     <div class="mypoto_img_2">
-                        <img src="./화면 캡처 2024-06-18 093428.png" class="pc_img">
+                        <img src=".//pc 2024-06-19 102031.png" class="pc_img">
                         <img src="./화면 캡처 테블릿  2024-06-18 095309.png" class="ta_img">
                         <img src="./모바일.png" class="mo_img">
                     </div>
@@ -486,7 +494,7 @@
                             <div class="circle meetour1"></div>
                             <div class="circle meetour2"></div>
                         </div>
-                        <a href="https://github.com/sungmyeongha/meetour" class="link">Github 접속하기</a>
+                        <a href="" class="link">Github 접속하기</a>
                     </div>
                 </div>
             </div>
