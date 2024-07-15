@@ -203,7 +203,6 @@
         
         .link {
             position: absolute;
-            margin-top: 30px;
         }
         .link_mobile {
             margin-top: 30px;
@@ -319,6 +318,19 @@
         .eight {
             background-color:red;
         }
+                .function {
+            position: absolute;
+            background-color: white;
+            z-index: 99999;
+            padding: 10px;
+        }
+     .function_title {
+            cursor: pointer;
+        }
+
+        .display {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -427,6 +439,18 @@
                             <div class="circle kream1"></div>
                             <div class="circle kream2"></div>
                         </div>
+                        <h3  class="function_title">상세기능 설명</h3>
+                        <div class="function display">
+                            <h3>메인 페이지</h3>
+                            <p>1. 클릭시 배너 넘기기</p>
+                            <p>2. 더보기 클릭시 상품 더 보기</p>
+                            <p>3. 클릭시 코디 상품 한칸 씩 이동하기</p>
+                            <h3>2페이지</h3>
+                            <p>1. 필터 부분 헤더에 따라 같이 다니기</p>
+                            <p>2. 무한 스크롤 3번 상품 반복됨</p>
+                            <h3>3페이지</h3>
+                            <p>1. 사이즈 클릭해서 각 사이즈 누르면 그에 맞는 목록 나오기</p>
+                        </div>
                         <a href="https://sungmyeongha.github.io/kreams/" class="link">웹사이트 접속하기</a>
                     </div>
                 </div>
@@ -455,6 +479,17 @@
                             <div class="circle paris1"></div>
                             <div class="circle paris2"></div>
                         </div>
+                        <h3  class="function_title">상세기능 설명</h3>
+                        <div class="function display">
+                            <h3>메인 페이지</h3>
+                            <p>1. 헤더에 각각 다른 설명란 보여주기</p>
+                            <p>2. 헤더에 모바일 반응형시 햄버거 버튼 기능넣기</p>
+                            <p>3. 메인 베너 스와이퍼 기능 사용</p>
+                            <h3>2페이지</h3>
+                            <p>1. 각 상품 메뉴 누르면 그 상품으로 스크롤 내려가기</p>
+                            <h3>3페이지</h3>
+                            <p>1. 상품 오른쪽에 클릭시 그 상품 페이지로 한칸 씩 이동</p>
+                        </div>
                         <a href="https://sungmyeongha.github.io/Paris/" class="link">웹사이트 접속하기</a>
                     </div>
                 </div>
@@ -482,6 +517,20 @@
                             <p>color</p>
                             <div class="circle spao"></div>
                         </div>
+                        <h3  class="function_title">상세기능 설명</h3>
+                        <div class="function display">
+                            <h3>메인 페이지</h3>
+                            <p>1. 헤더에 각각 다른 설명란 보여주기</p>
+                            <p>2. 베너 클릭시 베너 사진 바뀜</p>
+                            <p>3. 메인 페이지에 마우스로 이동가능한 팝업창</p>
+                            <p>4. 메인 성별등을 선택시 하나씩 상품 들어오는 기능 구현</p>
+                            <p>5. 스와이퍼 기능 상품에 넣어 놓기</p>
+                            <h3>2페이지</h3>
+                            <p>1. 위에 분류란에 클릭시 상품목록에 맞게 분류</p>
+                            <h3>3페이지</h3>
+                            <p>1. 사이즈 선택 후 상품 구매 기능 구현</p>
+                            <p>2. 구매 부분 헤더에 따라 같이 다니기</p>
+                        </div>
                         <a href=" https://sungmyeongha.github.io/spao/" class="link">pc버전 접속하기</a>
                         <a href="https://sungmyeongha.github.io/spao_mobile/" class="link_mobile">모바일버전 접속하기</a>
                     </div>
@@ -507,6 +556,20 @@
                         <div class="color">
                             <p>color</p>
                             <div class="circle eight"></div>
+                        </div>
+                        <h3  class="function_title">상세기능 설명</h3>
+                        <div class="function display">
+                            <h3>메인 페이지</h3>
+                            <p>1. 헤더에 각각 다른 설명란 보여주기</p>
+                            <p>2. 검색 돋보기 클릭시 검색창 부분 먼저 나오면 그 다음에 최근 검색에 부분이 보이는 기능 구현</p>
+                            <p>3. 메인 베너 스와이퍼 기능 사용</p>
+                            <p>4. 메인 성별등을 선택시 상품 바뀌는 기능</p>
+                            <p>4. 룩북에 따라 각각 스와이퍼 넣기</p>
+                            <h3>2페이지</h3>
+                            <p>1. 성별에 맞게  클릭시 상품 보여주기</p>
+                            <h3>3페이지</h3>
+                            <p>1. 사이즈 선택 후 상품 구매 기능 구현</p>
+                            <p>2. 상품정보 추천에 따른 다른 화면 보여주기 기능 넣음</p>
                         </div>
                         <a href="https://sungmyeongha.github.io/8sconds/" class="link">pc버전 접속하기</a>
                         <a href="https://sungmyeongha.github.io/8sconds_mobile/" class="link_mobile">모바일버전 접속하기</a>
@@ -595,7 +658,11 @@
         scrollTop: 0
     }, 600)
 })
-
+    for (let i = 0; i < $('.function_title').length; i++) {
+            $('.function_title').eq(i).click(function(){
+            $('.function').eq(i).toggle('.display')
+        })
+    }
 
     })
 </script>
